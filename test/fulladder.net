@@ -1,0 +1,12 @@
+INPUT a, b, c
+OUTPUT s, r
+VAR
+  _l_17, _l_19, _l_20, _l_21, a, b, c, r, s
+IN
+r = OR _l_19 _l_21
+s = XOR _l_17 c
+_l_17 = XOR a b
+_l_19 = AND a b
+_l_20 = XOR a b
+_l_21 = AND _l_20 c
+
